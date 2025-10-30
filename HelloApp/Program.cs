@@ -15,5 +15,7 @@ class HelloApp
     static void Main()
     {
         Console.WriteLine("hello everyone");
+        greetWhite();
+        greetBlack();
     }
 }
