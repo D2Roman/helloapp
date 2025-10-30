@@ -6,9 +6,16 @@ class HelloApp
     {
         Console.WriteLine("hello white");
     }
+
+    static void greetBlack()
+    {
+        Console.WriteLine("hello black");
+    }
     
     static void Main()
     {
         Console.WriteLine("hello everyone");
+        greetWhite();
+        greetBlack();
     }
 }
