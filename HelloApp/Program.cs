@@ -9,6 +9,6 @@ class HelloApp
     
     static void Main()
     {
-        Console.WriteLine("Hello");
+        Console.WriteLine("hello everyone");
     }
 }
